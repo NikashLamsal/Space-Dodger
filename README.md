@@ -1,11 +1,11 @@
-# 🚀 Space Dodger
+# 🚀 Space Dodger  [![Play](https://img.shields.io/badge/🔗-Play-blue?style=for-the-badge)](https://nikashlamsal.github.io/Space-Dodger/)
 
-Neon Space Dodger is a fast-paced browser game where you control a spaceship and navigate through an obstacle-filled space environment. The goal is to dodge asteroids, avoid obstacles, and collect coins to achieve the highest score!
+Space Dodger is a fast-paced browser game where you control a spaceship and navigate through an obstacle-filled space environment. The goal is to dodge asteroids, avoid obstacles, and collect coins to achieve the highest score!
 
 ## Features :
 - **Player-controlled spaceship** - Move your ship to dodge asteroids and obstacles.
 - **Coin collection** - Gather coins to increase your score.
-- **🏆 High-score challenge** - Try to survive longer and set a new record!
+- **High-score challenge** - Try to survive longer and set a new record!
 
 ## Technologies Used :
 - **HTML** - For structuring the game elements.
@@ -18,5 +18,5 @@ Neon Space Dodger is a fast-paced browser game where you control a spaceship and
 3. Collect coins while avoiding asteroids and obstacles.
 4. Survive as long as possible to achieve a high score!
 
-
-💡 *Made with passion for space and gaming! 🚀*
+--
+ *Made with passion for space and gaming! 🚀*
