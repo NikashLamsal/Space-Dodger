@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: radial-gradient(circle, rgba(0,0,50,1) 0%, black 100%);
+    color: cyan;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+.container{
+    border-radius: 55%;
+}
+h1 {
+    font-size: 24px;
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+canvas {
+    background: radial-gradient(circle, rgba(0,0,50,1) 0%, black 100%);
+    border: 2px solid cyan;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 20px cyan;
+    border-radius: 1%;
+}
+
+#playBtn, #restartBtn {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: cyan;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid cyan;
+    cursor: pointer;
+    margin: 10px auto; 
+    display: block; 
+    text-shadow: 0 0 10px cyan;
+    box-shadow: 0 0 10px cyan;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: 400px; 
+    transition: all 0.3s ease; 
+    border-radius: 8%;
+}
+
+#playBtn:hover, #restartBtn:hover {
+    background-color: cyan;
+    color: black;
+    text-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px white;
+}
+
+#restartBtn {
+    display: none; 
+    top: 450px; 
+}
