@@ -24,4 +24,4 @@ Space Dodger is a fast-paced browser game where you control a spaceship and navi
 4. Survive as long as possible to achieve a high score!
 
 ---
- *Made with passion for space and gaming! 🚀*
+ *Made with passion for coding and logic building! 🚀*
