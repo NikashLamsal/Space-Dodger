@@ -1,4 +1,4 @@
-#  Space Dodger 🚀  [![Play](https://img.shields.io/badge/🚀-Play Now!-blueviolet?style=for-the-badge&logo=gamepad&logoColor=white)](https://nikashlamsal.github.io/Space-Dodger/)
+#  Space Dodger 🚀  [![🚀 Play Now!](https://img.shields.io/badge/🚀-Play%20Now!-ff00ff?style=for-the-badge&logo=gamepad&logoColor=white)](https://nikashlamsal.github.io/Space-Dodger/)
 
 Space Dodger is a fast-paced browser game where you control a spaceship and navigate through an obstacle-filled space environment. The goal is to dodge asteroids, avoid obstacles, and collect coins to achieve the highest score!
 
