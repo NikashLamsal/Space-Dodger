@@ -10,7 +10,7 @@ Space Dodger is a fast-paced browser game where you control a spaceship and navi
 
 ## Technologies Used :
 
-- **HTML** - For structuring the game elements.
+- **HTML5-Canvas** - For structuring the game elements.
 - **CSS** - For styling and creating the neon-themed aesthetics.
 - **JavaScript** - For game logic and interactivity.
 
