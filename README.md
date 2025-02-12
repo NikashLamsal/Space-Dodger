@@ -4,7 +4,7 @@
 
 ---
 
-## Features 🎯
+## Features 
 
 - **Player-Controlled Spaceship** - Move your spaceship left and right to dodge asteroids and obstacles.
 - **Parallax Star Background** - Immersive multi-layered star background for a sense of depth and motion.
