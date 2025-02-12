@@ -6,9 +6,11 @@ body {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
 }
-.container{
+
+.container {
     border-radius: 55%;
 }
+
 h1 {
     font-size: 24px;
     color: cyan;
@@ -24,33 +26,43 @@ canvas {
     border-radius: 1%;
 }
 
-#playBtn, #restartBtn {
+#playBtn, #restartBtn, #exitBtn {
     background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Press Start 2P', cursive;
     color: cyan;
     font-size: 18px;
     padding: 10px 20px;
     border: 2px solid cyan;
     cursor: pointer;
-    margin: 10px auto; 
-    display: block; 
+    margin: 10px auto;
+    display: block;
     text-shadow: 0 0 10px cyan;
     box-shadow: 0 0 10px cyan;
-    position: absolute; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    top: 400px; 
-    transition: all 0.3s ease; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
     border-radius: 8%;
 }
 
-#playBtn:hover, #restartBtn:hover {
+#playBtn {
+    top: 400px;
+}
+
+#restartBtn {
+    display: none;
+    top: 420px;
+}
+
+#exitBtn {
+    display: none;
+    top: 480px; 
+}
+
+
+#playBtn:hover, #restartBtn:hover, #exitBtn:hover {
     background-color: cyan;
     color: black;
     text-shadow: 0 0 20px white;
     box-shadow: 0 0 20px white;
-}
-
-#restartBtn {
-    display: none; 
-    top: 450px; 
 }
