@@ -3,7 +3,9 @@ const ctx = canvas.getContext("2d");
 const playBtn = document.getElementById("playBtn");
 const restartBtn = document.getElementById("restartBtn");
 const exitBtn = document.getElementById("exitBtn");
-
+const leftBtn = document.getElementById("left-btn");
+const rightBtn = document.getElementById("right-btn");
+const shootbtn = document.getElementById("shoot-btn");
 
 canvas.width = 600;
 canvas.height = 700;
@@ -291,6 +293,20 @@ function updateelements() {
 }
 
 // Player movement
+
+leftBtn.addEventListener("touchstart", () => {
+    if (player.x > 50) player.x -= player.speed;
+});
+
+rightBtn.addEventListener("touchstart", () => {
+    if (player.x < canvas.width - 50) player.x += player.speed;
+});
+
+shootbtn.addEventListener("touchstart", () => {
+    bullets.push({ x: player.x, y: player.y - 25 });
+    playSound(shootSound); 
+});
+
 document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowLeft" && player.x > 50) {
         player.x -= player.speed;
