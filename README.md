@@ -27,7 +27,7 @@
 
 ## How to Play 🎮
 
-**⚠ Disclaimer:** This game is best played on a PC or laptop.
+**⚠ Disclaimer:** This game is best played on any device.
 
 1. **Start the Game**:
    - Click the **Play** button above to launch the game.
